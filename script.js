@@ -19,6 +19,13 @@ noBtn.addEventListener("mouseover", () => {
 });
 yesBtn.addEventListener("click", () => {
     question.innerHTML = "Wii Tú y yo yo y tú x100pre morcite bonite :3"; 
+
+  // Insertamos el mensaje adicional de Valentine1 
+    const mensajeExtra = document.createElement("p");
+    mensajeExtra.innerHTML = "Por más días juntos, disfrutando el uno del otro,<br>el otro del uno, en el mismo sentido, en sentido contrario<br>y viceversa..."; [cite: 11-13]
+    mensajeExtra.style.fontSize = "1em";
+    mensajeExtra.style.color = "#6b4f3f"; [cite: 61]
+    question.appendChild(mensajeExtra);
     gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif"; 
     document.getElementById("btn-group").style.display = "none";
     details.style.display = "block"; // Muestra contador y música
@@ -83,4 +90,5 @@ function tick(event) {
         heart.rotation = heart._rotation + Math.sin(int) * 30;
     }
     stage.update(event); 
+
 }
