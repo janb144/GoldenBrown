@@ -18,7 +18,7 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.top = randomY + "px";
 });
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "Wii Tú y yo yo y tú x100pre morcite bonite :3"; 
+    question.innerHTML = "💖 Tú y yo yo y tú por siempre morcite bonite 💖 "; 
 
     // Insertamos el mensaje adicional de Valentine1 
     const mensajeExtra = document.createElement("p");
@@ -95,3 +95,4 @@ function tick(event) {
     }
     stage.update(event); 
 }
+
