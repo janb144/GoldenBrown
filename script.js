@@ -22,9 +22,9 @@ yesBtn.addEventListener("click", () => {
 
   // Insertamos el mensaje adicional de Valentine1 
     const mensajeExtra = document.createElement("p");
-    mensajeExtra.innerHTML = "Por más días juntos, disfrutando el uno del otro,<br>el otro del uno, en el mismo sentido, en sentido contrario<br>y viceversa..."; [cite: 11-13]
+    mensajeExtra.innerHTML = "Por más días juntos, disfrutando el uno del otro,<br>el otro del uno, en el mismo sentido, en sentido contrario<br>y viceversa...";
     mensajeExtra.style.fontSize = "1em";
-    mensajeExtra.style.color = "#6b4f3f"; [cite: 61]
+    mensajeExtra.style.color = "#6b4f3f";
     question.appendChild(mensajeExtra);
     gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif"; 
     document.getElementById("btn-group").style.display = "none";
@@ -92,3 +92,4 @@ function tick(event) {
     stage.update(event); 
 
 }
+
